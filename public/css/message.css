@@ -1,0 +1,88 @@
+.message_wrapper {
+  position: relative;
+  top: 100px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 75%;
+  height: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.message_wrapper h1 {
+  padding: 10px 10px;
+  color: #ccc;
+  text-transform: lowercase;
+  font-weight: 100;
+  font-style: italic;
+}
+.message_wrapper h1 span {
+  color: #3b5998;
+  text-transform: uppercase;
+}
+
+.messages {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  flex-direction: column;
+  height: 70%;
+  padding: 20px;
+  margin: 20px 0;
+  overflow-y: scroll;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-items: start;
+  background-color: ccc;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+  background-color: #3b5998;
+  margin-bottom: 5px;
+}
+
+.message_me {
+  color: #fff;
+  background-color: rgb(133, 196, 133);
+}
+
+.message span {
+  color: #ccc;
+  font-weight: 100;
+  font-style: italic;
+  font-size: small;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+form textarea {
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  outline: none;
+  resize: none;
+}
+
+form button {
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+form button::before {
+  font-size: 40px;
+  color: #3b5998;
+}

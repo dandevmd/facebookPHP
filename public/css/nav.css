@@ -1,0 +1,68 @@
+.top_bar {
+  z-index: 2;
+  width: 100%;
+  min-width: 1050px;
+  height: 40px;
+  background-color: #3b5998;
+  border-bottom: 0.25rem solid #1e3a6f;
+  display: inline-flex;
+  position: fixed;
+}
+
+.logo a {
+  margin-left: 10px;
+  font-size: 30px;
+  position: relative;
+  top: 5px;
+  font-family: Courier New, Courier, monospace;
+  font-style: italic;
+  font-weight: bolder;
+  color: #fff;
+  text-shadow: #74b6e2 0.5px 0.5px 0px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+nav {
+  float: right;
+  right: 1px;
+  margin: 10px;
+  position: absolute;
+}
+
+.username {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 200;
+  color: #fff;
+  margin-right: 10px;
+}
+
+nav a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+nav a:hover,
+.logout_form button:hover {
+  border-bottom: 7px solid #1e3a6f;
+  color: #fff;
+}
+
+.logout_form {
+  display: inline;
+}
+
+.logout_form button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 90%;
+  font-weight: 700;
+}

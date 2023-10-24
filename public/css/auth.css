@@ -1,0 +1,68 @@
+@import url("/facebook/public/css/default.css");
+@import url("/facebook/public/css/error.css");
+
+body {
+  background-image: url("/facebook/public/images/Desktop.jpeg");
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  margin: 3.5rem auto;
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  padding: 5px;
+}
+
+.form_title_container {
+  background-color: #3b5998;
+  padding: 2px;
+  padding: 20px;
+  border-radius: 5px 5px 0 0;
+}
+.form_title_container h1 {
+  font-family: Courier New, Courier, monospace;
+  font-style: italic;
+  font-weight: bolder;
+  color: #1e3a6f;
+  margin-bottom: 10px;
+}
+.form_title_container p {
+  font-family: Courier New, Courier, monospace;
+  font-style: italic;
+  color: #fff;
+}
+
+form {
+  padding: 30px;
+  padding-top: 5px;
+}
+
+/* Input styles */
+input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 14px;
+  width: 350px;
+  margin: 5px;
+  font-family: Courier New, Courier, monospace;
+}
+
+input:last-child {
+  margin: 20px;
+  background-color: #3b5998;
+  color: #fff;
+  border: 1px solid #1e3a6f;
+}
+
+input:last-child:hover {
+  background-color: #ddd;
+  color: #3b5998;
+  border: 1px solid #ddd;
+}

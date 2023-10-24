@@ -1,0 +1,26 @@
+Sure! Here's a Facebook-like color palette that you can use for the background, title font, and paragraph text:
+
+Background Color:
+
+    Primary: #3b5998 (Facebook Blue)
+        Accent: #1e3a6f (Darker Blue)
+    Secondary: #e9ebee (Light Gray)
+
+
+
+Title Font Color:
+
+    Primary: #ffffff (White)
+    Secondary: #000000 (Black)
+    Accent: #1e3a6f (Darker Blue)
+      text-shadow: #74b6e2 0.5px 0.5px 0px;
+
+
+Paragraph Font Color:
+
+    Primary: #1c1e21 (Dark Gray)
+    Secondary: #606770 (Medium Gray)
+
+You can use these color codes in your CSS or design tools to apply the desired colors to the respective elements on your website or application. Remember to choose appropriate contrast between the background and font colors to ensure readability.
+
+

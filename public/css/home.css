@@ -1,0 +1,114 @@
+@import url("/facebook/public/css/error.css");
+
+.wrapper {
+  position: relative;
+  top: 50px;
+  margin: 0 auto;
+  padding: 10px;
+  width: 75px;
+  min-width: 950px;
+}
+
+.wrapper a {
+  text-decoration: none;
+  color: #1e3a6f;
+}
+
+.column {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px #d3d3d3;
+  z-index: -1;
+}
+
+.user_details {
+  width: 250px;
+  float: left;
+  margin-bottom: 20px;
+}
+.user_details img {
+  width: 120px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.user_details_right {
+  display: inline-block;
+  width: 125px;
+  position: absolute;
+}
+
+.main_column {
+  float: right;
+  width: 70%;
+  z-index: -1;
+  min-height: 160px;
+}
+
+.post_form {
+  width: 100%;
+}
+
+.post_form textarea {
+  width: 80%;
+  height: 60px;
+  border-radius: 5px;
+  margin-right: 5px;
+  resize: none;
+  border: 1px solid #d3d3d3;
+  padding: 5px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.post_form button {
+  width: 11%;
+  height: 60px;
+  border: none;
+  border-radius: 3px;
+  background-color: #3b5998;
+  color: #fff;
+  position: absolute;
+  outline: none;
+  margin: 0;
+  font-size: 90%;
+  font-weight: 700;
+}
+
+.post_form button:hover {
+  background-color: #1e3a6f;
+}
+
+.status_post {
+  display: flex;
+  justify-items: flex-start;
+  margin: 30px 0;
+}
+
+.post_profile_pic {
+  margin-right: 7px;
+}
+
+.post_profile_pic img {
+  border-radius: 5px;
+  min-width: 40px;
+  min-height: 40px;
+  width: 50px;
+  height: 50px;
+}
+
+.post_date {
+  font-size: 12px;
+  color: gray;
+  font-style: italic;
+}
+
+.post_body {
+  font-size: 13px;
+  color: black;
+  padding: 10px 0 5px 0px;
+}
